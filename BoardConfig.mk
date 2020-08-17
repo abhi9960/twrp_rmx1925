@@ -139,6 +139,14 @@ SHRP_PATH := device/realme/RMX1925
 SHRP_MAINTAINER := Abhishek
 SHRP_DEVICE_CODE := RMX1925
 ##SHRP_EDL_MODE := 1
+SHRP_STATUSBAR_RIGHT_PADDING := 40
+SHRP_STATUSBAR_LEFT_PADDING := 40
+SHRP_NOTCH := true
+
+#for dark theme by default 
+SHRP_DARK := true
+
+SHRP_AB := true
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usbotg
@@ -150,5 +158,3 @@ SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
 SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
 SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
 SHRP_FLASH_MAX_BRIGHTNESS := 200
-
-
