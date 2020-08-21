@@ -146,13 +146,13 @@ SHRP_NOTCH := true
 #for dark theme by default 
 SHRP_DARK := true
 
-SHRP_AB := true
+
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usbotg
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
 SHRP_REC_TYPE := Treble
-SHRP_DEVICE_TYPE := A/B
+SHRP_DEVICE_TYPE := A only 
 SHRP_FLASH := 1
 SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
 SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
