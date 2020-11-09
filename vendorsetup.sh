@@ -48,7 +48,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_ADVANCED_SECURITY=1
 	export FOX_BUILD_TYPE=Beta
 	export FOX_VERSION=R11.0_0
-
+        export FOX_R11=1
 	export FOX_DELETE_AROMAFM=1
 	export OF_USE_MAGISKBOOT=1
 	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
