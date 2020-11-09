@@ -38,10 +38,10 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
    	export TW_DEFAULT_LANGUAGE="en"
 	export OF_KEEP_FORCED_ENCRYPTION=1
 	export OF_PATCH_AVB20=1
-        export OF_SCREEN_H=1600
-        export OF_STATUS_H=80
-        export OF_STATUS_INDENT_LEFT=48
-        export OF_STATUS_INDENT_RIGHT=48
+
+
+
+
 	export OF_USE_MAGISKBOOT=1
 	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
 	#export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
