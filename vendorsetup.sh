@@ -42,7 +42,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export OF_STATUS_INDENT_LEFT="48"
         export OF_STATUS_INDENT_RIGHT="48"
         export OF_SUPPORT_OZIP_DECRYPTION=1
-        export OF_AB_DEVICE=0
+        export O
         export OF_STATUS_H=100
         export TW_DEVICE_VERSION="R11.0"
 	export FOX_ADVANCED_SECURITY=1
