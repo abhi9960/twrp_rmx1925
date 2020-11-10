@@ -46,7 +46,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export OF_STATUS_H=100
         export TW_DEVICE_VERSION="R11.0"
 	export FOX_ADVANCED_SECURITY=1
-	export FOX_BUILD_TYPE=Beta
+	export FOX_BUILD_TYPE=Internal/Alpha/Beta/Stable
 	export FOX_VERSION=R11.0_0
         export FOX_R11=1
 	export FOX_DELETE_AROMAFM=1
@@ -56,7 +56,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 	export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
 	export OF_TARGET_DEVICES="RMX1925,RMX1911,RMX2030"
-	
+	export OF_USE_TWRP_SAR_DETECT=1
 	export FOX_USE_BASH_SHELL=1
 	export FOX_ASH_IS_BASH=1
 	export FOX_USE_NANO_EDITOR=1
