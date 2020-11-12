@@ -17,7 +17,7 @@
 # 	
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="RMX1925"
+FDEVICE="RMX1911"
 
 fox_get_target_device() {
 local chkdev=$(echo "$BASH_SOURCE" | grep $FDEVICE)
@@ -55,7 +55,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	#export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
 	export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 	export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
-	export OF_TARGET_DEVICES="RMX1925,RMX1911,RMX2030"
+	export OF_TARGET_DEVICES="RMX1911,RMX1925,RMX2030"
 
 	export FOX_USE_BASH_SHELL=1
 	export FOX_ASH_IS_BASH=1
