@@ -144,25 +144,41 @@ PLATFORM_VERSION := 16.1.0
 
 #SHRP_Variables
 SHRP_PATH := device/realme/RMX1925
+SHRP_DEVICE_CODE := R5x
 SHRP_MAINTAINER := Abhishek
-SHRP_DEVICE_CODE := RMX1925
-##SHRP_EDL_MODE := 1
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_Only
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_EDL_MODE := 1
 SHRP_STATUSBAR_RIGHT_PADDING := 48
 SHRP_STATUSBAR_LEFT_PADDING := 48
 SHRP_NOTCH := true
 
 #for dark theme by default 
 SHRP_DARK := true
+SHRP_EXPRESS := true
 
 
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
-SHRP_OTG := /usbotg
-SHRP_REC := /dev/block/bootdevice/by-name/recovery
-SHRP_REC_TYPE := Treble
-SHRP_DEVICE_TYPE := A_Only
+SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
 SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
 SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
 SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
 SHRP_FLASH_MAX_BRIGHTNESS := 200
+
+#SHRP EXTERNAL ADDONS
+# addon path
+SHRP_EXTERNAL_ADDON_PATH := "device/realme/$(SHRP_DEVICE_CODE)/kool_Addons/"
+# Addon #1 - Name
+SHRP_EXTERNAL_ADDON_1_NAME := "LOS Recorder"
+# Addon #1 - Description
+SHRP_EXTERNAL_ADDON_1_INFO := "A magisk module which add lineageOS recorder into your system"
+# Addon #1 - Addon file name as ZIP (zip format is required)
+SHRP_EXTERNAL_ADDON_1_FILENAME := "los_recorder.zip"
+# Addon #1 - Free defineable button text the user need to press to actually install that addon
+# (Examples: Ok, Install, Flask, Enable, Disable, etc)
+SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Flashhh"
+# Addon #1 - Text beeing shown when the installation was successful
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Successfully flashed"
