@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := RMX1925
+PRODUCT_RELEASE_NAME := realme_trinket
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -23,16 +23,16 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := RMX1925
-PRODUCT_NAME := omni_RMX1925
+PRODUCT_DEVICE := realme_trinket
+PRODUCT_NAME := omni_realme_trinket
 PRODUCT_BRAND := Realme
-PRODUCT_MODEL := Realme 5s
+PRODUCT_MODEL := realme_trinket
 PRODUCT_MANUFACTURER := Realme
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=RMX1925 \
-    BUILD_PRODUCT=RMX1925 \
-    TARGET_DEVICE=RMX1925
+    PRODUCT_NAME=realme_trinket \
+    BUILD_PRODUCT=realme_trinket \
+    TARGET_DEVICE=realme_trinket
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
