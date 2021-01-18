@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX1925
+DEVICE_PATH := device/realme/realme_trinket
 
 # Architecture
 TARGET_ARCH := arm64
@@ -63,7 +63,7 @@ BOARD_INCLUDE_RECOVERY_DTBO := true
 #TARGET_USE_SDCLANG := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX1925
+TARGET_OTA_ASSERT_DEVICE := RMX1911,RMX1925,RMX2030
 
 # Avb
 BOARD_AVB_ENABLE := true
@@ -79,10 +79,6 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 116979121664
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_PARTITION_SIZE := 1452277760
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
-
-
-
-
 
 # System as root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
@@ -143,7 +139,7 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
 #SHRP_Variables
-SHRP_PATH := device/realme/RMX1925
+SHRP_PATH := device/realme/realme_trinket
 SHRP_DEVICE_CODE := R5x
 SHRP_MAINTAINER := Abhishek
 SHRP_REC_TYPE := Treble
@@ -157,7 +153,6 @@ SHRP_NOTCH := true
 #for dark theme by default 
 SHRP_DARK := true
 SHRP_EXPRESS := true
-
 
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
