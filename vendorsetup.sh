@@ -17,7 +17,7 @@
 # 	
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="RMX1925"
+FDEVICE="R5x"
 
 fox_get_target_device() {
 local chkdev=$(echo "$BASH_SOURCE" | grep $FDEVICE)

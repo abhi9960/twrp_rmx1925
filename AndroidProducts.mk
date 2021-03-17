@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_RMX1925.mk
+    $(LOCAL_DIR)/omni_R5x.mk
 

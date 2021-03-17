@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX1925
+DEVICE_PATH := device/realme/R5x
 
 # Architecture
 TARGET_ARCH := arm64
@@ -62,7 +62,7 @@ BOARD_INCLUDE_RECOVERY_DTBO := true
 #TARGET_USE_SDCLANG := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX1925,RMX1911,RMX2030
+TARGET_OTA_ASSERT_DEVICE := RMX1911,RMX1925,RMX2030
 
 # Avb
 BOARD_AVB_ENABLE := true
