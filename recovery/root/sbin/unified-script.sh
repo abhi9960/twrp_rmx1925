@@ -23,18 +23,18 @@ load_RMX2030()
 }
 
 
-board_id=$(cat /proc/cmdline)
-echo $board_id
+id=$(cat /proc/oppoVersion/serialID)
+echo $id
 
-case $board_id in
-    "board_id=S86125AA1")
+case $id in
+    "0x7f7c7d59")
         load_RMX1925
         ;;
-    "board_id=S86129AA1")
-        load_RMX2030
+    "0xf6eba053")
+        load_RMX1911
         ;;        
     *)
-        load_RMX1911
+        load_RMX2030
         ;;
 esac
 
