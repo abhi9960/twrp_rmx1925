@@ -1,4 +1,3 @@
-#
 # Copyright (C) 2019 The TwrpBuilder Open-Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,24 +14,19 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := RMX1925
+PRODUCT_RELEASE_NAME := r5x
 
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := RMX1925
-PRODUCT_NAME := omni_RMX1925
+PRODUCT_DEVICE := r5x
+PRODUCT_NAME := omni_r5x
 PRODUCT_BRAND := Realme
-PRODUCT_MODEL := Realme 5s
+PRODUCT_MODEL := Realme 5/5s/5i
 PRODUCT_MANUFACTURER := Realme
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=RMX1925 \
-    BUILD_PRODUCT=RMX1925 \
-    TARGET_DEVICE=RMX1925
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -43,3 +37,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #     ro.product.device \
 #     ro.product.name \
 #     ro.build.product
+
